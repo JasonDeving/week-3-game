@@ -16,7 +16,6 @@ document.onkeyup = function(event){
 		var keyup = String.fromCharCode(event.keyCode).toLowerCase();
 			livesId.innerHTML = lives;
 		if (keyup == letter){
-			alert("win");
 			win++;
 			winId.innerHTML = win;
 		} else {
